@@ -92,8 +92,28 @@ $myNullVar = NULL; // this is CaSe InsenSitive.
 
 //LOOPS!
 
-for ( $iterator=0; $iterator < 10000; $iterator +=1 )
+for ( $iterator=0; $iterator < 10; $iterator +=1 )
 {
     echo "\nOUR for loop is on ITERATIION: $iterator";
 }
 
+// Associative array
+$students = [
+    'Hitesh' => 'Cricket',
+    'Ayesha' => 'Cooking',
+    'Aaron' => 'Watching movies',
+    'Tarun' => 'Cooking'
+];
+
+/// "foreach" lets us loop through a set list of
+// values from an Array or Object!
+// NOTE: We can grab an index/key AND the value by
+//       using the fat arrow in our foreach!
+//       ( ARRAY as KEY => VALUE )
+// This is comparable to "for...of" and "for...in" from JS.
+
+foreach( $students as $name => $hobby )
+{
+    echo "\n - HI, my name is $name! I like $hobby.";
+
+}
