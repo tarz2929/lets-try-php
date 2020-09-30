@@ -117,3 +117,13 @@ foreach( $students as $name => $hobby )
     echo "\n - HI, my name is $name! I like $hobby.";
 
 }
+
+// While Loop.
+
+$i =12;
+while ( $i > 2 )
+{
+    echo "\nWhile Iterator is at: $i";
+    $i--; // This is the same as $i =$i -1;
+    
+}
