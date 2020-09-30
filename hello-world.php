@@ -90,3 +90,10 @@ echo "\n\n" . $object -> name. ' | ' . $object ->cohort . ' | ' . $object -> yea
 $myNullVar = NULL; // this is CaSe InsenSitive.
 
 
+//LOOPS!
+
+for ( $iterator=0; $iterator < 10000; $iterator +=1 )
+{
+    echo "\nOUR for loop is on ITERATIION: $iterator";
+}
+
