@@ -75,3 +75,18 @@ $array3 = array(
 );
 // echo $array3[1]; // Cannot find by index here!
 echo $array3['name']; // Outputs "George".
+
+//objects..
+
+$object = new stdClass();
+$object -> name = 'TECHCareers';
+$object -> cohort = 4.2;
+$object -> year = 2020;
+
+echo "\n\n" . $object -> name. ' | ' . $object ->cohort . ' | ' . $object -> year ;
+
+
+// Null..
+$myNullVar = NULL; // this is CaSe InsenSitive.
+
+
