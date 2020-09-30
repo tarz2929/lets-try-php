@@ -125,5 +125,20 @@ while ( $i > 2 )
 {
     echo "\nWhile Iterator is at: $i";
     $i--; // This is the same as $i =$i -1;
-    
+
 }
+
+// Function
+
+function addition ( $num1, $num2 )
+{
+    return $num1 + $num2;
+}
+
+echo "\n Addition Result:" . addition(5, 10);
+echo "\n Addition Result:" . addition("23", 10);
+echo "\n Addition Result:" . addition("hey", 10);
+echo "\n Addition Result:" . addition("-2", 10);
+echo "\n Addition Result:" . addition("37trees5", 10);
+
+
