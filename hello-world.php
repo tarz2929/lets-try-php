@@ -11,3 +11,5 @@ echo "Hello, world!";
 $studentName = "Hitesh";
 echo $studentName;
 
+// the concatentation in php is . period. 
+echo "\n\n this string is being" . 'concatenated!';
